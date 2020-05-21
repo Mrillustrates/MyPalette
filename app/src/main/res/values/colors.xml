@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app-->
+    <color name = "base_brown">#835911</color>
+    <color name = "dark_brown_color">#61420D</color>
+    <color name = "tan_color">#F3CD8B</color>
+    <color name = "brick_color">#CA4141</color>
+    <color name = "violet">#9125E4</color>
+    <color name = "slate_color">#808080</color>
 </resources>
