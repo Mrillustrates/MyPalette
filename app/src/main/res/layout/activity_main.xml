@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Choose one color"
+        android:gravity="center_vertical"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/base_brown_color"
+            android:id ="@+id/base_brown"
+
+
+            />
+
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Dark Brown"
+        android:background="@drawable/dark_brown_color"
+
+        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:background="@drawable/tan_color_full"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:background="@drawable/fired_brick_color"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:background="@drawable/violet_color"
+
+            />
+
+
+
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:background="@drawable/slate_gray_color"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Recommendations: "/>
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= " "
+            android:id= "@+id/color_recommendations"
+           />
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>
